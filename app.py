@@ -65,7 +65,7 @@ def upload_file():
         return f"Error inserting into database: {e}"
  
 if __name__ == '__main__':
-    # Create the database and tables if they don't exist
+    # Create the database and tables if they don't exist in file
     with app.app_context():
         print("Initializing the database...")
         try:
